@@ -1,0 +1,36 @@
+{
+  "id": "00dee6fb-8754-46ba-a6e1-eb89b2c4fa9a",
+  "name": "Clever WMS Device Samples",
+  "publisher": "Clever Dynamics",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+		{
+			"id": "1e6af11a-9854-46d4-a4b2-3ae0cf4d7fad",
+			"name": "Clever Handheld Framework",
+			"publisher": "Clever Dynamics",
+			"version": "7.6.0.0"
+		}    
+  ],
+  "screenshots": [],
+  "platform": "19.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0"
+}
