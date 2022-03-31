@@ -2,6 +2,24 @@
 This project is a set of samples intended to demonstrate to developers the various
 different means of extending Clever WMS Devices.
 
+## MyFirstDeviceFunction - A simple device function to change an item description
+This example shows how a simple function can be created by subscribing to the
+following events in session management:
+
+ - OnFunctionInitialise()
+ - OnFunctionValidate()
+ - OnFunctionCancel()
+ - OnFunctionPost()
+
+The example function accepts an item number, displays the description, and allows
+the user to enter a new description.
+
+Before use, add 'MYFUNCTION' to the function codes table, ensure columns have been
+added or the data items will not display on the device.
+
+Finally, add 'MYFUNCTION' to a device menu.
+
+
 ## GS1BarcodeProcessor - On-server custom barcode processing
 Barcodes are usually processed "On-device" and this is the recommended method if
 possible, however sometimes companies have created barcodes that do not conform to
