@@ -3,6 +3,9 @@ This project is a set of samples intended to demonstrate to developers the vario
 different means of extending Clever WMS Devices.
 
 ## MyFirstDeviceFunction - A simple device function to change an item description
+Works across all modern implementations of Clever WMS Devices, particularly in
+versions of Business Central where the interface object is not supported.
+
 This example shows how a simple function can be created by subscribing to the
 following events in session management:
 
@@ -18,6 +21,32 @@ Before use, add 'MYFUNCTION' to the function codes table, ensure columns have be
 added or the data items will not display on the device.
 
 Finally, add 'MYFUNCTION' to a device menu.
+
+
+## MyFirstDeviceFunctionInterface - A simple device function to change an item description
+A more efficient method to implementation a device function utilising interfaces.
+
+Works in modern implementations of Clever WMS Devices, only versions of Business Central
+where interface objects is supported.
+
+This example shows how a simple function can be created using a codeunit implementation of
+"IFunction CHHFTMN". Required functions:
+
+ - Initialize()
+ - Validate()
+ - Cancel()
+ - Post()
+ - Close()
+
+The example function accepts an item number, displays the description, and allows
+the user to enter a new description.
+
+Before use, add 'MYFUNCTIONIF' to the function codes table, ensure columns have been
+added or the data items will not display on the device.
+
+When creating the function you MUST specify the "Implementation" ('My First Device Function')
+
+Finally, add 'MYFUNCTIONIF' to a device menu.
 
 
 ## GS1BarcodeProcessor - On-server custom barcode processing
