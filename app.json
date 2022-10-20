@@ -2,7 +2,7 @@
   "id": "00dee6fb-8754-46ba-a6e1-eb89b2c4fa9a",
   "name": "Clever WMS Device Samples",
   "publisher": "Clever Dynamics",
-  "version": "1.0.1.0",
+  "version": "1.0.2.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,7 +13,7 @@
   "dependencies": [
 		{
 			"id": "1e6af11a-9854-46d4-a4b2-3ae0cf4d7fad",
-			"name": "Clever Handheld Framework",
+			"name": "Clever Device Framework",
 			"publisher": "Clever Dynamics",
 			"version": "7.6.0.0"
 		}    
